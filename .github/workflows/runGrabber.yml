@@ -2,7 +2,7 @@ name: LinkGrabber
 
 on:
   schedule:
-    - cron: '54 23 * * *'
+    - cron: '0 */23 * * *'
 
   pull_request:
     branches: [ main ]
